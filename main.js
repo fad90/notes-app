@@ -1,6 +1,4 @@
-const notesEl = document.querySelector(".notes"),
-    addBtn = document.querySelector(".add");
-
+const addBtn = document.querySelector(".add");
 const notes = JSON.parse(localStorage.getItem('notes'));
 
 if (notes) {
@@ -8,7 +6,6 @@ if (notes) {
         addNewNote(note);
     });
 };
-console.log(notes);
 
 addBtn.addEventListener("click", () => {
     addNewNote();
