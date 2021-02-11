@@ -30,16 +30,7 @@ body {
     outline: none;
     cursor: pointer;
 }
-.edit {
-}
-.fas {
-}
-.fa-edit {
-}
-.delete {
-}
-.fa-trash-alt {
-}
+
 .note .main {
     width: 100%;
     height: 400px;
